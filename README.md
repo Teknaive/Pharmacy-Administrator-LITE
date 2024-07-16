@@ -10,7 +10,7 @@ To run the application, follow these steps:
 
 2. Navigate to the "dist" folder within the project directory.
 
-3. Click the .jar file
+3. Click the .jar file.
 
 4. If the .jar file does not work, then open a command prompt or terminal window and run the following command:
 
