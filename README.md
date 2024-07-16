@@ -2,6 +2,24 @@
 
 Official repository of one of my first Java projects, this is Pharmacy Administrator LITE
 
+## Running the Application
+
+To run the application, follow these steps:
+
+1. Ensure you have the Java Runtime Environment (JRE) installed on your computer. You can download the latest version of the JRE from the official [Java website](https://www.java.com/es/download/manual.jsp).
+
+2. Navigate to the "dist" folder within the project directory.
+
+3. Click the .jar file or open a command prompt or terminal window and run the following command:
+
+   ```sh
+   java -jar filename.jar
+   ```
+
+Replace "filename.jar" with the actual name of the .jar file.
+
+The application should now start running.
+
 ## About the Application
 
 This desktop application, developed using the Java programming language, serves as a tool to assist in the management of pharmacies. It showcases my current programming skills as of July 15, 2024. The application was created with dedication and love to demonstrate my capabilities up to this point.
