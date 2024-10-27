@@ -2,8 +2,6 @@
 
 Official repository of one of my first Java projects, this is Pharmacy Administrator LITE
 
-# Running the Application
-
 ## Prerequisites
 Before running the application, make sure you have:
 - Java Runtime Environment (JRE) installed on your computer
