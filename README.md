@@ -11,7 +11,7 @@ Before running the application, make sure you have:
   - If Java is not installed, download and install it from the official [Java website](https://www.java.com/es/download/manual.jsp)
 
 ## Installation
-1. Download the `.jar` file from the `dist` folder in this repository
+1. Download the `.jar` file, located at: `Pharmacy Administrator LITE/dist/` in this repository.
 2. Save it to a location on your computer where you have read and write permissions
 
 ## Running the Application
