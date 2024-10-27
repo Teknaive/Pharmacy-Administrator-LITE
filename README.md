@@ -2,25 +2,85 @@
 
 Official repository of one of my first Java projects, this is Pharmacy Administrator LITE
 
+# Running the Application
+
+## Prerequisites
+Before running the application, make sure you have:
+- Java Runtime Environment (JRE) installed on your computer
+  - To check if Java is installed, open a terminal/command prompt and type: `java -version`
+  - If Java is not installed, download and install it from the official [Java website](https://www.java.com/es/download/manual.jsp)
+
+## Installation
+1. Download the `.jar` file from the `dist` folder in this repository
+2. Save it to a location on your computer where you have read and write permissions
+
 ## Running the Application
 
-To run the application, follow these steps:
+### Method 1: Double-click (Graphical Interface)
+1. Navigate to the folder where you saved the `.jar` file
+2. Double-click the file named `filename.jar`
+   - If this doesn't work, proceed to Method 2 or Method 3
 
-1. Ensure you have the Java Runtime Environment (JRE) installed on your computer. You can download the latest version of the JRE from the official [Java website](https://www.java.com/es/download/manual.jsp).
-
-2. Navigate to the "dist" folder within the project directory.
-
-3. Click the .jar file.
-
-4. If the .jar file does not work, then open a command prompt or terminal window and run the following command:
-
+### Method 2: Command Line (Windows)
+1. Open Command Prompt (cmd)
+   - Press `Windows + R`
+   - Type `cmd` and press Enter
+2. Navigate to the folder containing the `.jar` file:
+   ```sh
+   cd path\to\your\jar\file
+   ```
+3. Run the application:
    ```sh
    java -jar filename.jar
    ```
+   - Replace `filename.jar` with the actual name of the file
 
-Replace "filename.jar" with the actual name of the .jar file.
+### Method 3: Terminal (macOS/Linux)
+1. Open Terminal
+2. Navigate to the folder containing the `.jar` file:
+   ```sh
+   cd path/to/your/jar/file
+   ```
+3. Run the application:
+   ```sh
+   java -jar filename.jar
+   ```
+   - Replace `filename.jar` with the actual name of the file
 
-The application should now start running.
+## Troubleshooting
+
+If you encounter any issues:
+
+1. Verify Java installation:
+   ```sh
+   java -version
+   ```
+   - If this command fails, reinstall Java
+
+2. Check file permissions:
+   - Windows: Right-click the `.jar` file → Properties → Make sure it's not blocked
+   - Linux/macOS: Make the file executable:
+     ```sh
+     chmod +x filename.jar
+     ```
+
+3. Try running with console output:
+   ```sh
+   java -jar filename.jar -console
+   ```
+   This will show any error messages that might help identify the problem.
+
+## Support
+
+If you continue experiencing issues:
+- Check the Issues section of this repository
+- Create a new Issue with details about the error and your system configuration
+
+## System Requirements
+- Java Runtime Environment 8 or higher
+- Operating System: Windows 7/10/11, macOS 10.14+, or Linux
+- RAM: Minimum 2GB (4GB recommended)
+- Storage: 100MB free space
 
 ## About the Application
 
